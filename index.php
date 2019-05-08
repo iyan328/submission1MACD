@@ -3,6 +3,7 @@
  <Title>Student Form</Title>
  <style type="text/css">
  	body { background-color: #fff; border-top: solid 10px #000;
+      border-bottom: solid 10px #000;
  	    color: #333; font-size: .85em; margin: 20; padding: 20;
  	    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
  	}
@@ -21,7 +22,10 @@
  <form method="post" action="index.php" enctype="multipart/form-data" >
        Name  <input type="text" name="name" id="name"/></br></br>
        Address <input type="text" name="address" id="address"/></br></br>
-       Gender <input type="text" name="gender" id="gender"/></br></br>
+       Gender <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
        <input type="submit" name="submit" value="Submit" />
        <input type="submit" name="show_data" value="Load Data" />
  </form>
