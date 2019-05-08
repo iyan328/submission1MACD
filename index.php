@@ -68,10 +68,10 @@
                 echo "<th>Gender</th>";
                 echo "<th>Date</th></tr>";
                 foreach($registrants as $registrant) {
-                    echo "<tr><td>".$registrant['name']."</td>";
-                    echo "<td>".$registrant['address']."</td>";
-                    echo "<td>".$registrant['gender']."</td>";
-                    echo "<td>".$registrant['date']."</td></tr>";
+                    echo "<tr><td>".$registrant['NAME']."</td>";
+                    echo "<td>".$registrant['ADDRESS']."</td>";
+                    echo "<td>".$registrant['GENDER']."</td>";
+                    echo "<td>".$registrant['DATE']."</td></tr>";
                 }
                 echo "</table>";
             } else {
