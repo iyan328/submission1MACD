@@ -25,7 +25,7 @@
        Gender <select name="gender" id="gender">
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
-              </select>
+              </select></br></br>
        <input type="submit" name="submit" value="Submit" />
        <input type="submit" name="show_data" value="Load Data" />
  </form>
